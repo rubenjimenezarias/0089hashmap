@@ -7,7 +7,7 @@
  */
 public class Test
 {
-    public String test1()
+    public void test1()
     {
         AgendaTelefonica agenda = new AgendaTelefonica();
         
@@ -16,8 +16,7 @@ public class Test
         agenda.enterNumber("Miguel3","333333333");
         agenda.enterNumber("Antonio4","444444444");
         
-        
-        return agenda.lookupNumber("Miguel3");
+        agenda.printAllNames();
     }
     
     
