@@ -33,8 +33,9 @@ public class AgendaTelefonica
     /**
      * Devuelve el numero de telefon de un nombre que le indiques
      */
-    public void lookupNumber(String name)
+    public String lookupNumber(String name)
     {
-        agenda.get(name);
+        return agenda.get(name);
     }
+    
 }

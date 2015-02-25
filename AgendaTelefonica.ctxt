@@ -6,6 +6,6 @@ comment1.params=name\ number
 comment1.target=void\ enterNumber(java.lang.String,\ java.lang.String)
 comment1.text=\r\n\ Introduce\ un\ nombre\ con\ un\ numero\ a\ la\ agenda\r\n\ \r\n\ @name\ \ clave\ nombre\r\n\ @number\ numero\ de\ telefono\ \r\n
 comment2.params=name
-comment2.target=void\ lookupNumber(java.lang.String)
+comment2.target=java.lang.String\ lookupNumber(java.lang.String)
 comment2.text=\r\n\ Devuelve\ el\ numero\ de\ telefon\ de\ un\ nombre\ que\ le\ indiques\r\n
 numComments=3
