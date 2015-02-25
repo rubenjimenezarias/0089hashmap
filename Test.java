@@ -7,27 +7,18 @@
  */
 public class Test
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Test
-     */
-    public Test()
+    public String test1()
     {
-        // initialise instance variables
-        x = 0;
+        AgendaTelefonica agenda = new AgendaTelefonica();
+        
+        agenda.enterNumber("Ruben1","111111111");
+        agenda.enterNumber("Pedro2","222222222");
+        agenda.enterNumber("Miguel3","333333333");
+        agenda.enterNumber("Antonio4","444444444");
+        
+        
+        return agenda.lookupNumber("Miguel3");
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+    
+    
 }
