@@ -1,9 +1,9 @@
 import java.util.HashMap;
 /**
- * Write a description of class AgendaTelefonica here.
+ * HashMap que simula una agenda de telefono
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Ruben Jimenez
+ * @version 1.0
  */
 public class AgendaTelefonica
 {
@@ -32,6 +32,7 @@ public class AgendaTelefonica
     
     /**
      * Devuelve el numero de telefon de un nombre que le indiques
+     * @name clave nombre
      */
     public String lookupNumber(String name)
     {
